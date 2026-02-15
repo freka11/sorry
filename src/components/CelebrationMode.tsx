@@ -31,14 +31,6 @@ const CelebrationMode = () => {
 
   return (
     <div className="min-h-screen bg-celebration flex flex-col items-center justify-center relative overflow-hidden px-4">
-      {/* Hidden YouTube iframe */}
-      <iframe
-        src="https://www.youtube.com/embed/8ELbX5CMomE?autoplay=1&loop=1&playlist=8ELbX5CMomE&controls=0"
-        allow="autoplay"
-        className="hidden"
-        title="background music"
-      />
-
       {/* Floating celebration hearts */}
       {Array.from({ length: 20 }).map((_, i) => (
         <span
@@ -68,9 +60,6 @@ const CelebrationMode = () => {
         </p>
       </div>
 
-      <p className="fixed bottom-4 right-4 text-xs text-muted-foreground opacity-60 fade-in">
-        This website was built under emotional pressure.
-      </p>
     </div>
   );
 };

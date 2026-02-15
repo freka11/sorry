@@ -78,14 +78,6 @@ const Index = () => {
 
   return (
     <div className={`min-h-screen bg-romantic flex flex-col items-center justify-center relative overflow-hidden px-4`}>
-      {/* Hidden YouTube iframe for background music */}
-      <iframe
-        src="https://www.youtube.com/embed/8ELbX5CMomE?autoplay=1&loop=1&playlist=8ELbX5CMomE&controls=0"
-        allow="autoplay"
-        className="hidden"
-        title="background music"
-      />
-
       {/* Main content */}
       <div className="text-center z-10 fade-in">
         <h1 className="text-4xl sm:text-6xl md:text-7xl font-bold text-foreground mb-2 drop-shadow-lg" style={{ animation: 'wiggle 2s ease-in-out infinite' }}>
